@@ -57,10 +57,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Expanded(
-            child: Container(
+      body: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Column(
+          children: [
+            Expanded(
               child: GridView.builder(
                   itemCount: images.length,
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -84,27 +85,30 @@ class _HomePageState extends State<HomePage> {
                     );
                   }),
             ),
-          ),
-          InkWell(
-            onTap: () {
-              loadMore();
-            },
-            child: Container(
-              height: 60,
-              width: double.infinity,
-              color: Colors.black,
-              child: Center(
-                child: Text(
-                  'Load More',
-                  style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.white,
+            InkWell(
+              onTap: () {
+                loadMore();
+              },
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.black,
+                ),
+                height: 60,
+                width: double.infinity,
+                child: const Center(
+                  child: Text(
+                    'Load More',
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

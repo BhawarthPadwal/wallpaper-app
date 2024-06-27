@@ -35,13 +35,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
-  # for fetching data
+  # data fetching library
   http:
-  # wallpaper dependencies
-  # wallpaper_manager_flutter:
-  # cache manager
-  # flutter_cache_manager:
-
+  # for setting wallpaper
+  flutter_wallpaper_manager:
+  flutter_cache_manager:
 
 dev_dependencies:
   flutter_test:
