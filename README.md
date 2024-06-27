@@ -1,16 +1,24 @@
-# new_wallpaper_app
+# Wallpaper App
 
-A new Flutter project.
+A Flutter application to browse and set wallpapers on your device using the Pexels API.
+
+## Features
+
+- Browse high-quality wallpapers from the Pexels API.
+- Set wallpapers directly from the app.
+- Simple and intuitive UI.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/docs/get-started/install) should be installed on your system.
+- Get a Pexels API key by signing up at [Pexels](https://www.pexels.com/api/).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/BhawarthPadwal/wallpaper-app.git
+   cd wallpaper-app
