@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
   fetchApi() async {
     await http.get(Uri.parse('https://api.pexels.com/v1/curated?per_page=80'), headers: {
       'Authorization':
-          'PUT_YOUR_PEXELS_API_HERE'
+          'iMylXmXW5pf4ThqIWxTC247cTqO6JsL5zdsAtAoNQOx630uQe6Kdj3tX'
     }).then((value) {
       // print(value.body);
       Map<String, dynamic> result = jsonDecode(value.body);
