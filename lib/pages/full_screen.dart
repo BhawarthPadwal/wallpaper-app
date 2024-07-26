@@ -78,7 +78,7 @@ class _FullScreenState extends State<FullScreen> {
               ),
             if (_resultMessage.isNotEmpty)
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(10.0),
                 child: Text(
                   _resultMessage,
                   style: const TextStyle(
